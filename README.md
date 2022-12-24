@@ -1,7 +1,7 @@
 
 ## TabsView
- 
-TabsView, is an alternative to native apple tabview
+
+TabsView, is an alternative to native apple tabview.
 
 TabsView is purely written in SwiftUI. it is used like apples tabview but with more customization
 
@@ -18,6 +18,20 @@ Requirements
 * Customize tabBar or you can hide the default tabBar to replace it with custom implementation.
 * Purely written in SwiftUI.
 
+
+## Setup
+
+* SPM 
+
+ ```
+https://github.com/oahhariri/TabsView.git
+ ```
+* Cocopods 
+
+ ```
+pod 'TabsView', '~> 1.0.1'
+```
+ 
 ## Main Compnents  
 - TabBarItemType
 - TabBarView 
@@ -43,11 +57,11 @@ protocol TabBarItemType: Identifiable, CaseIterable,Equatable,Hashable {
 
 ### TabBarView 
 is a warper for your views, any view inside the tabsView need to be warper with TabBarView
- ```
+
+```
 View1()
    .tabBarView(MainTabBar.View1)
 ```
- 
 
 ## Usage
 
