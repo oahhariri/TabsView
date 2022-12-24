@@ -123,4 +123,30 @@ TabsView(selection: $currentTab) {
 }
 ```
 
+## TabsView Custmaization
 
+- change tabs with animation
+```  
+TabsView(selection: $currentTab) { 
+     ...
+}
+.changeTabWithAnimation(true)
+```
+
+- change Tabbar color & Height
+```  
+TabsView(selection: $currentTab) { 
+     ...
+}
+.tabBarColor(Color.white)
+.tabBarHeight(45)
+```
+
+
+- Hide Tabbar
+```  
+TabsView(selection: $currentTab) { 
+     ...
+}
+.hideTabBar(true)
+```
